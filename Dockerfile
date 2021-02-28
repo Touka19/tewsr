@@ -9,7 +9,7 @@ RUN apt-get update -y && \
         git \
         ffmpeg && \
     git clone https://github.com/Touka19/XD.git && \
-    cd MusicPlayer-Heroku && \
+    cd XD && \
     git clone https://github.com/pytgcalls/pytgcalls.git && \
     cd pytgcalls/ && \
     npm install && \
