@@ -28,3 +28,42 @@ Neither this, or PyTgCalls are stable.
 - [Roj](https://github.com/rojserbest): main developer
 - [Marvin](https://github.com/BlackStoneReborn): bug reporter
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+69[https://heroku.com/deploy]
