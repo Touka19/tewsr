@@ -20,7 +20,7 @@ from helpers.errors import DurationLimitError
 async def play(client: Client, message_: Message):
     audio = (message_.reply_to_message.audio or message_.reply_to_message.voice) if message_.reply_to_message else None
 
-    res = await message_.reply_text("🔄 Processing...")
+    res = await message_.reply_text("🔄 Downloading...")
 
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
@@ -51,7 +51,7 @@ async def play(client: Client, message_: Message):
                         break
 
         if offset == None:
-            await res.edit_text("❕ You did not give me anything to play.")
+            await res.edit_text("Brr! 🤣 Reply to yt url.")
             return
 
         url = text[offset:offset+length]
