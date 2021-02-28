@@ -18,7 +18,7 @@ RUN apt-get update -y && \
     npm install && \
     cd ../../ && \
     pip3 install -r requirements.txt && \
-    cd /MusicPlayer-Heroku && \
+    cd /XD && \
     pip3 install -U -r requirements.txt
 
 WORKDIR /XD
