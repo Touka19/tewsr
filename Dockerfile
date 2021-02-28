@@ -21,5 +21,5 @@ RUN apt-get update -y && \
     cd /MusicPlayer-Heroku && \
     pip3 install -U -r requirements.txt
 
-WORKDIR /MusicPlayer-Heroku
+WORKDIR /XD
 CMD ["python3" "main.py"]
